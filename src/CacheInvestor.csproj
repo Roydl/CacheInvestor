@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Roydl.CacheInvestor</AssemblyName>
+    <RootNamespace>Roydl</RootNamespace>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Copyright>© Roy Schroedel. All rights reserved.</Copyright>
+    <Company>Roy Schroedel</Company>
+    <Authors>Roy Schroedel</Authors>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Description>Class that allows elements to be cached easily.</Description>
+    <PackageProjectUrl>https://github.com/Roydl/CacheInvestor</PackageProjectUrl>
+    <PackageIcon>LOGO.png</PackageIcon>
+    <RepositoryUrl>git://github.com/Roydl/CacheInvestor</RepositoryUrl>
+    <PackageTags>CacheInvestor alphanumeric comparer</PackageTags>
+    <RepositoryType></RepositoryType>
+    <SignAssembly>false</SignAssembly>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>obj\Debug\Roydl.CacheInvestor.xml</DocumentationFile>
+    <OutputPath>..\bin\Debug</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>obj\Release\Roydl.CacheInvestor.xml</DocumentationFile>
+    <OutputPath>..\bin\Release</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LOGO.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
