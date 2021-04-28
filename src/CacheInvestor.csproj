@@ -13,10 +13,11 @@
     <PackageProjectUrl>https://github.com/Roydl/CacheInvestor</PackageProjectUrl>
     <PackageIcon>LOGO.png</PackageIcon>
     <RepositoryUrl>git://github.com/Roydl/CacheInvestor</RepositoryUrl>
-    <PackageTags>CacheInvestor alphanumeric comparer</PackageTags>
+    <PackageTags>caching cache</PackageTags>
     <RepositoryType></RepositoryType>
     <SignAssembly>false</SignAssembly>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
